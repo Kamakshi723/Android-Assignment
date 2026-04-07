@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- APP TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor App"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- SUBTITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move your phone to see sensor values"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- ACCELEROMETER CARD -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📳 Accelerometer"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#283593"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvAccelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X: 0.0  Y: 0.0  Z: 0.0"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- GYROSCOPE CARD -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌀 Gyroscope"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#283593"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvGyroscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X: 0.0  Y: 0.0  Z: 0.0"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- MAGNETIC FIELD CARD -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧭 Magnetic Field"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#283593"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvMagneticField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="X: 0.0  Y: 0.0  Z: 0.0"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- SHAKE DETECTION -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📳 Shake Detection"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#283593"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvShake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shake your phone!"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="32dp"/>
+
+    </LinearLayout>
+</ScrollView>
