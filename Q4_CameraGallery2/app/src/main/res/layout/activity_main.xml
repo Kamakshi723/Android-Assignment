@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- APP TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera and Gallery"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- IMAGE VIEW -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:background="#CCCCCC"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- STATUS TEXT -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No image selected"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="32dp"/>
+
+        <!-- CAMERA BUTTON -->
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="📸 Take Photo"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#1A237E"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- GALLERY BUTTON -->
+        <Button
+            android:id="@+id/btnGallery"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🖼️ Pick from Gallery"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#283593"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="32dp"/>
+
+    </LinearLayout>
+</ScrollView>
